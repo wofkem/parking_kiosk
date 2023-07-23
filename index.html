@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
     <h1>롯데백화점</h1>
     <div>
-        <input onkeyup="enterkey();" type="" id="" placeholder="차량번호" onfocus="this.placeholder=''" onblur="this.placeholder='차량번호'">
-        <input type="button" value="확인" id="" onclick="" style="cursor:pointer;">
+        <input type="" id="carNumber" placeholder="차량번호" onfocus="this.placeholder=''" onblur="this.placeholder='차량번호'">
+        <input type="button" value="확인" id="" onclick="addData()" style="cursor:pointer;">
     </div>
     <div class="popup_btn" id="close_btn" onclick="closePop()" style='cursor:pointer;'></div>
 </body>
